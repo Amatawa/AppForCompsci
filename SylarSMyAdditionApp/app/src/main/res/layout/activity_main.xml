@@ -38,7 +38,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.224"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondNumEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/secondNumEditText"
+        tools:background="@color/buttonBackgrounds" />
 
     <TextView
         android:id="@+id/resultTextView"
@@ -80,6 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Subtract"
+        tools:background="@color/buttonBackgrounds"
         tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="145dp" />
 
@@ -88,6 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Multiply"
+        tools:background="@color/buttonBackgrounds"
         tools:layout_editor_absoluteX="76dp"
         tools:layout_editor_absoluteY="226dp" />
 
@@ -96,6 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Divide"
+        tools:background="@color/textColorBasic"
         tools:layout_editor_absoluteX="223dp"
         tools:layout_editor_absoluteY="226dp" />
 </android.support.constraint.ConstraintLayout>
