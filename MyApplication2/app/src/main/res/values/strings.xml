@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Extra List View by Sylar</string>
+
+    <string-array name="Items">
+        <item>Ice Cream</item>
+        <item>Potatoes</item>
+        <item>Mac'n'cheese</item>
+    </string-array>
+
+    <string-array name="Descriptions">
+        <item>Delicious creamy dessert</item>
+        <item>A starchy vegetable</item>
+        <item>Matthew Smith's favorite meal</item>
+    </string-array>
+
+    <string-array name="Prices">
+        <item>$0.99/scoop</item>
+        <item>$1.49/lb</item>
+        <item>$0.36/box</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">List app by Sylar Smith</string>
+
+    <string-array name="Items">
+        <item>Peach</item>
+        <item>Tomato</item>
+        <item>Squash</item>
+    </string-array>
+
+    <string-array name="Descriptions">
+        <item>A juicy fruit with fuzz</item>
+        <item>A fruit pretending to be a vegetable</item>
+        <item>SQUASSSHHH</item>
+    </string-array>
+
+    <string-array name="Prices">
+        <item>$0.99</item>
+        <item>$1.49</item>
+        <item>$0.89</item>
+    </string-array>
+
+
+
+
+
+
+
+</resources>
