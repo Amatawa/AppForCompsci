@@ -3,6 +3,8 @@ package com.example.mysqlsampleproject;
 import android.content.Context;
 import android.content.res.Resources;
 import android.os.AsyncTask;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         progressTextView.setText("");
         Button btn = (Button) findViewById(R.id.getDataButton);
         btn.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.CUPCAKE)
             public void onClick(View v) {
                 GetData retrieveData = new GetData();
                 retrieveData.execute("");
@@ -46,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.CUPCAKE)
     private class GetData extends AsyncTask <String,String,String> {
         String msg = "";
         static final String JDBC_DRIVER = "com.example.idbs.Driver";
